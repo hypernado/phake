@@ -15,10 +15,7 @@ Declares a task called name, with an optional array of dependent tasks, and opti
 - `Phake::file(path, [dependencies], [action])`
 
 Like `task`, but only runs the action if the target file ("name") doesn't exist or was last modified before at least on dependency.
-<!--
-- jake.directory(directoryPath)
-- jake.filedir(path, [dependencies], action)
--->
+
 *TODO: better API docs*
 
 Example "Phakefile"
